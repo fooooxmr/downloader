@@ -58,8 +58,8 @@
 }
 ```
 ### Выполнение
-Для запуска приложения необходимо запустить `downloader-0.0.1-SNAPSHOT-jar-with-dependencies.jar` в командной строке, передав туда необходимые параметры.<br>
-**Пример.**
+Для запуска приложения необходимо запустить `downloader-0.0.1-SNAPSHOT-jar-with-dependencies.jar` из папки `target` в командной строке, передав туда необходимые параметры.<br>
+**Примеры:**
 ```cmd
 java -jar downloader-0.0.1-SNAPSHOT-jar-with-dependencies.jar -p C://1 -n cat.jpg -l https://dobbless.files.wordpress.com/2010/03/cheshir_726123.png
 java -jar downloader-0.0.1-SNAPSHOT-jar-with-dependencies.jar -p C://1 -f myfiles.csv -t 10
